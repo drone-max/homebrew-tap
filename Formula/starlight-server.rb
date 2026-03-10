@@ -1,10 +1,10 @@
 class StarlightServer < Formula
   desc "High-performance drone fleet management server compatible with Skybrush Live"
   homepage "https://github.com/drone-max/starlight-releases"
-  version "0.1.11"
+  version "0.1.12"
   if OS.mac? && Hardware::CPU.arm?
-      url "https://github.com/drone-max/starlight-releases/releases/download/v0.1.11/starlight-server-aarch64-apple-darwin.tar.xz"
-      sha256 "1a5d470d6c263fc5c639d4b12cdb3e4591c10055a458f3cd63104896fa8bc755"
+      url "https://github.com/drone-max/starlight-releases/releases/download/v0.1.12/starlight-server-aarch64-apple-darwin.tar.xz"
+      sha256 "be81b587bec6cf55923d11306ba7fc34db23b56e808f00358785fb653a9d1cfb"
   end
   license "MIT"
 
